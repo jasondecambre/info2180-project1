@@ -130,19 +130,20 @@ li > a:hover{
     margin: 100px;
 }
 
-.testing-description{
-    padding-bottom: 30px;
+.testing-desciption{
+    padding-bottom: 40px;
     align-self: center;
 }
 
-.testing > .container > .cta> a{
+.testing > .container > .cta> a{  
     float: right;
+    text-transform: uppercase;  
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
     text-decoration: none;
     height: 30px;
-    width: 100px;
+    width: 160px;
     text-align: center;
     padding: 5px;
    
@@ -163,7 +164,7 @@ li > a:hover{
 .stories > .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    padding-top: 20px;
     
 }
 
@@ -180,10 +181,11 @@ article{
     flex-direction: row;
 }
 article > img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 20px;
+   
     
 }
 
@@ -198,6 +200,10 @@ article > img{
 
 button{
     background-color: #5A67D8;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    color: white;
 }
 
 .newsletter > .container{
@@ -210,6 +216,12 @@ form{
     display: flex;
     flex-direction: row;
     padding: 10px;
+}
+
+input{
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer{
